@@ -16,6 +16,8 @@ This repo contains the supported code and configuration files to reproduce objec
 ## Usage
 Please refer to [get_started.md](https://detectron2.readthedocs.io/en/latest/tutorials/getting_started.html) for installation and dataset preparation.
 
+note: you need convert the original pretrained weights to d2 format by `[convert_to_d2.py](convert_to_d2.py)`
+
 ## References
 - [Swin-Transformer](https://github.com/microsoft/Swin-Transformer)
 - [detectron2](https://github.com/facebookresearch/detectron2)
