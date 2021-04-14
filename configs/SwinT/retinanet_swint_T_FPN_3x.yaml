@@ -1,6 +1,6 @@
 _BASE_: "../Base-RetinaNet.yaml"
 MODEL:
-  WEIGHTS: "/apdcephfs/share_1363008/shared_info/huye/pretrained_models/swin_tiny_patch4_window7_224_d2.pth"
+  WEIGHTS: "swin_tiny_patch4_window7_224_d2.pth"
   RESNETS:
     DEPTH: 50
   BACKBONE:
