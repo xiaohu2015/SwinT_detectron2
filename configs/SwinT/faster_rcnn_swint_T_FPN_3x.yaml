@@ -1,6 +1,8 @@
 _BASE_: "../Base-RCNN-FPN.yaml"
 MODEL:
   WEIGHTS: "swin_tiny_patch4_window7_224_d2.pth"
+  PIXEL_MEAN: [103.530, 116.280, 123.675]
+  PIXEL_STD: [57.375, 57.120, 58.395]  # I use the dafault config [1.0, 1.0, 1.0], that is a mistake 
   MASK_ON: False
   RESNETS:
     DEPTH: 50
