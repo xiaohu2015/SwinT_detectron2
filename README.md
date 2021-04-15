@@ -12,6 +12,11 @@ This repo contains the supported code and configuration files to reproduce objec
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |:---: |
 | Swin-T | ImageNet-1K | 3x | 44.6| - | - | - | [config](configs/SwinT/retinanet_swint_T_FPN_3x.yaml) | - | - |
 
+### Faster R-CNN
+
+| Backbone | Pretrain | Lr Schd | box mAP | mask mAP | #params | FLOPs | config | log | model |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |:---: |
+| Swin-T FPN| ImageNet-1K | 3x | 45.1| - | - | - | [config](configs/SwinT/faster_rcnn_swint_T_FPN_3x.yaml) | - | - |
 
 ## Usage
 Please refer to [get_started.md](https://detectron2.readthedocs.io/en/latest/tutorials/getting_started.html) for installation and dataset preparation.
