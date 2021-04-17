@@ -18,6 +18,15 @@ This repo contains the supported code and configuration files to reproduce objec
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |:---: |
 | Swin-T FPN| ImageNet-1K | 3x | 45.1| - | - | - | [config](configs/SwinT/faster_rcnn_swint_T_FPN_3x.yaml) | - | - |
 
+### Mask R-CNN
+
+| Backbone | Pretrain | Lr Schd | box mAP | mask mAP | #params | FLOPs | config | log | model |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |:---: |
+| Swin-T FPN| ImageNet-1K | 3x | 45.5 | 41.8 | - | - | [config](configs/SwinT/mask_rcnn_swint_T_FPN_3x.yaml) | - | - |
+
+***The mask mAP (41.8 vs 41.6) is same as the mmdetection, but box mAP is worse (45.5 vs 46.0)***
+
+
 ## Usage
 Please refer to [get_started.md](https://detectron2.readthedocs.io/en/latest/tutorials/getting_started.html) for installation and dataset preparation.
 
