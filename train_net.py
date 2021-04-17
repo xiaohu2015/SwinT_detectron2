@@ -12,7 +12,7 @@ Therefore, we recommend you to use detectron2 as an library and take
 this file as an example of how to use the library.
 You may want to write your own script with your datasets and other customizations.
 """
-
+import itertools
 import logging
 import os
 from collections import OrderedDict
