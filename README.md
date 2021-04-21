@@ -22,7 +22,7 @@ This repo contains the supported code and configuration files to reproduce objec
 
 | Backbone | Pretrain | Lr Schd | box mAP | mask mAP | #params | FLOPs | config | log | model |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |:---: |
-| Swin-T FPN| ImageNet-1K | 3x | 45.5 | 41.8 | - | - | [config](configs/SwinT/mask_rcnn_swint_T_FPN_3x.yaml) | - | - |
+| Swin-T FPN| ImageNet-1K | 3x | 45.5 | 41.8 | - | - | [config](configs/SwinT/mask_rcnn_swint_T_FPN_3x.yaml) | - | [model](https://github.com/xiaohu2015/SwinT_detectron2/releases/download/v1.0/mask_rcnn_swint_T_coco17.pth) |
 
 ***The mask mAP (41.8 vs 41.6) is same as the mmdetection, but box mAP is worse (45.5 vs 46.0)***
 
