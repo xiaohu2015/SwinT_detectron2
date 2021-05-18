@@ -10,7 +10,7 @@ This repo contains the supported code and configuration files to reproduce objec
 
 | Backbone | Pretrain | Lr Schd | box mAP | mask mAP | #params | FLOPs | config | log | model |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |:---: |
-| Swin-T | ImageNet-1K | 3x | 44.6| - | - | - | [config](configs/SwinT/retinanet_swint_T_FPN_3x_.yaml) | - | - |
+| Swin-T | ImageNet-1K | 3x | 44.6| - | - | - | [config](configs/SwinT/retinanet_swint_T_FPN_3x_.yaml) | - | [model](https://github.com/xiaohu2015/SwinT_detectron2/releases/download/v1.2/retinanet_swint_S_3x.pth) |
 
 ### Faster R-CNN
 
