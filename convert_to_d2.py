@@ -13,10 +13,10 @@ def parse_args():
 def main():
     args = parse_args()
     
-    if os.path.splittext(path)[-1] != ".pth":
+    if os.path.splitext(args.source_model)[-1] != ".pth":
         raise ValueError("You should save weights as pth file")
     
-    source_weights = torch.load(args.source_model)["model"]
+    source_weights = torch.load(args.source_model, map_location=torch.device('cpu'))["model"]
     converted_weights = {}
     keys = list(source_weights.keys())
     
