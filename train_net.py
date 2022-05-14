@@ -123,6 +123,10 @@ class Trainer(DefaultTrainer):
             weight_decay_norm=cfg.SOLVER.WEIGHT_DECAY_NORM,
             bias_lr_factor=cfg.SOLVER.BIAS_LR_FACTOR,
             weight_decay_bias=cfg.SOLVER.WEIGHT_DECAY_BIAS,
+            overrides={
+                "absolute_pos_embed": {"lr": cfg.SOLVER.BASE_LR, "weight_decay": 0.0},
+                "relative_position_bias_table": {"lr": cfg.SOLVER.BASE_LR, "weight_decay": 0.0},
+            }
         )
 
         def maybe_add_full_model_gradient_clipping(optim):  # optim: the optimizer class
