@@ -3,6 +3,7 @@ Swin Transformer for Object Detection by detectron2
 
 This repo contains the supported code and configuration files to reproduce object detection results of [Swin Transformer](https://arxiv.org/pdf/2103.14030.pdf). It is based on [detectron2](https://github.com/facebookresearch/detectron2).
 
+**You can find SwinV2 in this [repo](https://github.com/xiaohu2015/nndet2)**
 
 ## Results and Models
 
